@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="A Propos"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Qui suis-je?"
+                android:textColor="#CC0033"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:text=" Apres mon Bac S2. On m'a orienté l'UCAD et plus précisamment des Sciences Techniques où j'ai fai laba Physique Chimie et aprés je suis partis à L'ESP et J' ai obteu laba ma Licence en Génie Logicielle et Système d'information.Actuellement je fais une formation accéléré en dévellopement web/mobile à Simplon pour augmenter mes compétences. Je suis Passionné par Linformatique et les possibilités qu'elle offre.Possedant de bonnes base en mathématique et un petit peu sur la programmation, mon objectif est de devenir un bon développeur web/mobile"
+                android:textColor="#111"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voir Cv"
+                app:backgroundTint="#CC0033"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="250dp" />
+
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

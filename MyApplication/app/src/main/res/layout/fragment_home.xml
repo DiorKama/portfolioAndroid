@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/devellope" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="Dior Kama"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Developpeuse Web/Mobile"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/twit" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/face" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/unnamed" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baniere"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

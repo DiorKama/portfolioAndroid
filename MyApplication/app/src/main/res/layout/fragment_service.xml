@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.service.ServiceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="91dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#ede9e9"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:backgroundTint="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        app:srcCompat="@drawable/brush" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="Design"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="280dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Le design produit est l'activité de conception des objets usuels de notre quotidien, fabriqués en pièces uniques, en petite série ou en grande série de façon industrielle." />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:backgroundTint="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        app:srcCompat="@drawable/trend" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:text="Base de Donnees"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Une base de données est un ensemble structuré et organisé de données qui représente un système d'informations sélectionnées de telle sorte qu'elles puissent être consultées par des utilisateurs ou par des programmes." />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded"
+                    android:backgroundTint="@color/white"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        app:srcCompat="@drawable/coding" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Application web/mobile"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Le développeur web mobile est le chef d'orchestre des applications mobiles. Il conçoit des programmes informatiques, tel un développeur web, à la différence qu'il se spécialise dans le domaine mobile et nomade (mobile, smartphone, tablettes)." />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
